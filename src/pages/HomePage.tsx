@@ -602,7 +602,7 @@ export default function HomePage() {
       round: 0
     };
 
-    import('../../lib/supabaseSync').then(({ loadQuotations, syncQuotations }) => {
+    import('../lib/supabaseSync').then(({ loadQuotations, syncQuotations }) => {
       loadQuotations().then((existingQs: any[]) => {
         existingQs.push(quotation);
         syncQuotations(existingQs);
