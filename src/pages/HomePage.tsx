@@ -858,7 +858,7 @@ export default function HomePage() {
       {activeView === 'listings' && (
         <div>
           <section style={{
-            backgroundImage: 'url("/beach-bg.png")',
+            backgroundImage: 'url("/beach-bg.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             height: '280px',
