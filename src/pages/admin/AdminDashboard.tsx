@@ -620,13 +620,13 @@ export default function AdminDashboard() {
     setGuideApplications(prev => prev.filter(r => r.id !== id));
   };
 
-  const handleSaveSettings = () => {
+  const handleSaveSettings = async () => {
     const config = {
       commissionRate, settlementDays, maintenanceMode,
       autoApproveListings, emailNotifications, smsNotifications,
       defaultCurrency, systemAnnouncement
     };
-    syncAdminSettings(config);
+    await syncAdminSettings(config);
     setSettingsSaved(true);
     setTimeout(() => setSettingsSaved(false), 2000);
   };
