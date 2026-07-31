@@ -52,7 +52,7 @@ const guidesData: GuideItem[] = [
     rating: 5.0,
     totalRatings: 715,
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80',
-    tourImage: 'https://images.unsplash.com/photo-1540959733332-eab4deceeaf7?auto=format&fit=crop&w=600&q=80',
+    tourImage: 'https://images.unsplash.com/photo-1542931287-023b922fa89b?auto=format&fit=crop&w=600&q=80',
     galleryImages: [
       'https://images.unsplash.com/photo-1540959733332-eab4deceeaf7?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80',
@@ -218,7 +218,7 @@ const guidesData: GuideItem[] = [
     rating: 3.8,
     totalRatings: 412,
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80',
-    tourImage: 'https://images.unsplash.com/photo-1452421820064-e2869df4a5f6?auto=format&fit=crop&w=600&q=80',
+    tourImage: 'https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80',
     galleryImages: [
       'https://images.unsplash.com/photo-1452421820064-e2869df4a5f6?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1540959733332-eab4deceeaf7?auto=format&fit=crop&w=800&q=80',
