@@ -861,7 +861,7 @@ export default function HomePage() {
             backgroundImage: 'url("/beach-bg.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            height: '280px',
+            height: '380px',
             position: 'relative',
             display: 'flex',
             flexDirection: 'column',
@@ -869,7 +869,34 @@ export default function HomePage() {
             alignItems: 'center',
             padding: '0 24px'
           }}>
-            
+            {/* Dark overlay for text readability */}
+            <div style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.45) 100%)',
+              zIndex: 0,
+            }} />
+
+            {/* Hero tagline */}
+            <h1 style={{
+              color: '#FFFFFF',
+              fontSize: 'clamp(1.4rem, 3vw, 2.2rem)',
+              fontWeight: 800,
+              textAlign: 'center',
+              maxWidth: '750px',
+              lineHeight: 1.3,
+              marginBottom: 28,
+              zIndex: 1,
+              textShadow: '0 2px 12px rgba(0,0,0,0.4)',
+              fontFamily: 'var(--font-heading)',
+              letterSpacing: '-0.02em',
+            }}>
+              Find trusted your own country guides to explore world without language barriers
+            </h1>
+
             <div style={{
               background: '#FFFFFF',
               borderRadius: '40px',
@@ -881,7 +908,8 @@ export default function HomePage() {
               padding: '6px 8px 6px 16px',
               height: '66px',
               border: '1px solid #E2E8F0',
-              boxSizing: 'border-box'
+              boxSizing: 'border-box',
+              zIndex: 1,
             }} className="search-bar-container">
               
               <div style={{ flex: 1, padding: '0 8px', display: 'flex', flexDirection: 'column' }}>
@@ -968,7 +996,8 @@ export default function HomePage() {
               alignItems: 'center',
               gap: 36,
               marginTop: 20,
-              backdropFilter: 'blur(10px)'
+              backdropFilter: 'blur(10px)',
+              zIndex: 1,
             }}>
               
               <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
